@@ -1,0 +1,18 @@
+# Core notebook runtime
+ipykernel
+ipython
+
+# Notebook code dependencies
+beautifulsoup4
+openai
+python-dotenv
+requests
+tiktoken
+pillow
+litellm
+langchain-openai
+gradio
+google-genai
+anthropic
+
+# Ollama is used via a local install and server, not a pip package.a

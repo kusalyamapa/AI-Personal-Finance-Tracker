@@ -1,0 +1,21 @@
+[project]
+name = "financetracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.98.1",
+    "beautifulsoup4>=4.14.3",
+    "google-genai>=1.75.0",
+    "gradio>=6.14.0",
+    "ipykernel>=7.2.0",
+    "ipython>=9.13.0",
+    "langchain-openai>=1.2.1",
+    "litellm>=1.83.0",
+    "openai>=2.34.0",
+    "pillow>=12.2.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+    "tiktoken>=0.12.0",
+]
