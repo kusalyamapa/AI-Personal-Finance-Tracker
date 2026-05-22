@@ -1,39 +1,94 @@
-# AI-powered personal finance tracker
-##Description
-This project is an AI-powered personal finance assistant that helps users track their income and expenses using natural language.
+# AI-Powered Personal Finance Tracker
 
-Users can simply type messages like:
+## Description
+
+This project is an AI-powered personal finance assistant built using Python, OpenAI API, Gradio, and SQLite.
+
+The application allows users to track income and expenses using natural language.
+
+Example inputs:
 - "My salary is 3000 for May 2026"
 - "I spent 50 on lunch"
 
-The AI understands the input, calls the correct tools, and stores data in a SQLite database.
+The AI understands user messages, calls the correct tools/functions, and stores the data in a SQLite database.
 
-## Setup Instructions
-1.install dependencies
+---
 
-.venv\Scripts\activate - activate virtual environment
+# Technologies Used
+
+- Python
+- OpenAI API
+- Gradio
+- SQLite
+- Function Calling / Tool Calling
+- dotenv
+
+---
+
+# Setup Instructions
+
+## 1. Clone the repository
+
+```bash
+git clone <your-github-repository-link>
+cd AI-Personal-Finance-Tracker
+```
+
+## 2. Activate virtual environment
+
+```bash
+
+```
+
+## 3. Install dependencies
+
+```bash
 uv add -r requirements.txt
+```
 
-2.Add openai API key:
-create a '.env' file and add inside that file 
-OPENAI_API_KEY = my_api_key_here
+---
 
-# How to run
-1.Open the notebook:
-  financetracker.ipynb
+# Add OpenAI API Key
 
-2.Run all cells
+Create a `.env` file in the project root and add:
 
-3.The gradio UI will launch automatically
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+---
+
+# How to Run
+
+1. Open the notebook:
+
+```text
+financetracker.ipynb
+```
+
+2. Run all cells
+
+3. The Gradio UI will launch automatically
+.venv\Scripts\activate
+---
 
 # Features
-1.Add salary using natural language
-2.Log expenses
-3.View remaining balance
-4.Get expense summary by category
 
-# Screenshort
-![Set salary test](Screenshots/Image1.png)
-![Log expense test](Screenshots/Image2.png)
-![Balance check](Screenshots/Image3.png)
-![Summary report](Screenshots/Image4.png)
+- Add salary using natural language
+- Log expenses
+- View remaining balance
+- Get expense summary by category
+- AI-powered conversational interface
+
+---
+
+
+# Learning Outcomes
+
+This project helped me learn:
+- OpenAI API integration
+- AI function/tool calling
+- Prompt engineering basics
+- Building AI-powered applications
+- Gradio UI development
+- SQLite database integration
